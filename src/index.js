@@ -3,11 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Home from './Pnr/Home'
+import Login from './Pnr/Login';
+import Basic from './RootReact/Basic';
+import Loginform from './ProjectLoginform/Loginform';
+import InputForm from './Pnr/InputForm';
+import Rapp from './CountryProject/Rapp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+{/* <Basic/> */}
+{/* <Loginform/> */}
+<Rapp/>
+{/* <InputForm/> */}
+
   </React.StrictMode>
 );
 
